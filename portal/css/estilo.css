@@ -1,0 +1,173 @@
+/* HABILITAR LOS BANNERS - SACAR EL ESTILO
+-------------------------------------------------- */
+section#banner1 {    display: none;}
+section#banner2 {    display: none;}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {  padding-top: 4.5rem;  padding-bottom: 0rem;  color: #262c61;  background-color: #fff;  font-family: 'Roboto', sans-serif;}
+footer {	min-height: 75px;    background-color: #262c61; color: #fff;    display: block;    overflow: hidden;}
+main a, main a:hover { text-decoration: none!Important;}
+.cerrado {display: none;}
+.abierto {display: block;}
+img {    max-width: 100%;}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #bfbfbf;  opacity: 1; /* Firefox */}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:  #bfbfbf;}
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: #bfbfbf;}
+input:focus, input.form-control:focus, button#botbuscar:focus {    outline:none !important;    outline-width: 0 !important;    box-shadow: none;    -moz-box-shadow: none;    -webkit-box-shadow: none;}
+*:focus {outline: none;}
+
+.bg-dark {    background-color: #262c61!Important;}
+.bg-light {    background-color: #e3e7ea !Important;}
+.btn-primary {    color: #fff;    background-color: #262c61;    border-color: #262c61;}
+.btn-primary:hover {    color: #fff;    background-color: #484e83;    border-color: #fff;}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {  margin-bottom: 4rem;}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {  bottom: 3rem;  z-index: 10;}
+/* Declare heights because of positioning of img element */
+.carousel-item {  height: 32rem;}
+.carousel-item > img {  position: absolute;  top: 0;  left: 0;  min-width: 100%;  height: 32rem;}
+.featurette-divider {  margin: 5rem 0; /* Space out the Bootstrap <hr> more */}
+/* Thin out the marketing headings */
+.featurette-heading {  font-weight: 300;  line-height: 1;  letter-spacing: -.05rem;}
+.carousel-caption p {		margin-bottom: 1.25rem;		font-size: 1.25rem;		line-height: 1.4;	}
+
+.featurette-heading {		font-size: 50px;	}
+
+.main_text {	margin-top: 20px;}
+
+a.header_link:link {	color: #5e646d;	text-decoration: none;}
+a.header_link:hover {	color: #5e646d;	text-decoration: none;}
+a.header_link:active {	color: #5e646d;	text-decoration: none;}
+a.header_link:visited {	color: #5e646d;	text-decoration: none;}
+
+.navbar {	padding: 10px;     /*box-shadow: 0px 15px 35px 18px #0000000d;*/}
+a.nav-link {    font-weight: 500;}
+li.nav-item {    padding: 0px 3px;}
+.navbar-nav a.btn.btn-primary {    margin: 0px 5px; border-radius: 1rem;}
+li.nav-item.botones {    margin-left: 15px;}
+
+#footer {    padding: 50px 0px;}
+.footer i.fab {    font-size: 30px;    margin: 20px 20px;}
+section#buscador {    margin-bottom: 50px;}
+#buscar {    min-height: 355px;}
+#buscador h6 {    text-align: center;    font-size: 32px;    margin-bottom: 20px;}
+#buscador .input-group {    text-align: center;    width: 60%;    margin-left: 20%;    margin-right: 20%;    background-color: #FFF;    border-radius: 1.5rem;    box-shadow: 0px 15px 35px 18px #0000000d;}
+#buscador .form-control {    font-size: 20px;    font-weight: 500;    border-radius: 1.5rem 0rem 0rem 1.5rem;    padding: 30px 25px;    background-color: #FFF;    border: 1px solid #fdfdfd;}
+#buscador  input#searchword {   outline:0px; border: 0px; outline-width: 0;}
+#buscador  input:focus {    outline:0px; border: 0px;outline-width: 0;}
+button#botbuscar {       border: 1px solid #fdfdfd;    border-radius: 0rem 1.5rem 1.5rem 0rem;    padding: 0px 15px;    font-size: 30px;    color: #262c61;}
+
+section#banner1, section#banner2, section#institucional {    padding: 50px 0px;}
+section#informacion {    padding-top: 50px;}
+#buscador {background-image: url(../img/fondo_buscador.jpg);   background-repeat: repeat;    background-size: cover;    z-index: 999;    background-color: #FFF!Important;	min-height: 355px;}
+#informacion .info {background-image: url(../img/fondo_quees.png);    background-repeat: no-repeat;    background-size: auto;    z-index: 10;    background-color: #fff!Important;    min-height: 530px; position: relative;}
+#informacion .info2 {background-image: url(../img/fondo_quees.png);    background-repeat: no-repeat;    background-size: auto;    z-index: 10;    background-color: #fff!Important;     min-height: 600px; position: relative;}
+#informacion a, #servicios a { color: #848484; cursor: pointer;}
+#informacion a:hover, #servicios a:hover {color:#262c61; font-weight: bolder;}
+#informacion .video {    float: right;    position: absolute;    top: 60px;    right: 15px; z-index: 10; width: 734px;    height: 428px!Important; background-image: url(../img/fondo_video3.jpg);}
+#informacion .video2 {    float: right;    position: absolute;    top: 60px;    right: 15px; z-index: 10; width: 734px;    height: 428px!Important; background-image: url(../img/fondo_video1.jpg);}
+#info .boton_play {background-image: url(../img/bot_play_gris.png);   background-repeat: no-repeat;    background-size: cover;    z-index: 999;    height: 80px; width: 113px; margin-right: auto;    margin-left: auto; opacity: 0.7;}
+#info .boton_play2 {background-image: url(../img/bot_play_rojo.png);   background-repeat: no-repeat;    background-size: cover;    z-index: 999;    height: 80px; width: 113px; margin-right: auto;    margin-left: auto;}
+
+#informacion .recuadro {    float: left;    position:  absolute;    top: 138px;    height: auto;    width: 45%;    line-height: 50px; z-index: 99;}
+#informacion .info_bolanta {    font-size: 24px;}
+#info_title {    font-size: 45px;}
+#info_mas {      font-weight: 500; }
+#info_mas b {    letter-spacing: -3px;     color: #262c61;}
+#info_texto {    line-height: 1.5;    width: 65%;    margin-top: 15px;}
+
+#sabermas .h-100 {min-height: 405px;}
+#sabermas .texto {    margin: 0px 0px 60px 0px;}
+#sabermas .fondogris {    background-color: #5e646d;    color: #FFF;    padding: 40px;    margin: 0px 15px;}
+#sabermas .titulo {    font-weight: 500;    font-size: 24px;    line-height: 1.3;}
+#sabermas b.celeste {color: #262C61;} 
+#modulo1 {background-image: url(../img/fondo_modulo1.jpg);   background-repeat: no-repeat;    background-size: cover;    z-index: 999;    background-color: #FFF!Important;	min-height: 405px;}
+#modulo2 {background-image: url(../img/fondo_modulo2.jpg);   background-repeat: no-repeat;    background-size: cover;    z-index: 999;    background-color: #FFF!Important;	min-height: 405px;}
+
+
+#banner1 p, #banner2 p {min-height: 115px; background-color:#f9f8fb;}
+#servicios {background-image: url(../img/fondo_servicios.jpg);   background-repeat: repeat;    background-size: auto;    z-index: 999;    background-color: #FFF!Important;	min-height: 667px;}
+#servicios .h-100 {min-height: 667px;}
+#servicios .col-lg-4 {  margin-bottom: 1.5rem;  text-align: center;}
+#servicios .col-lg-4 p {  margin-right: .75rem;  margin-left: .75rem;}
+#servicios .iconos {    text-align: center;}
+#servicios .recuadro {    background-color: #FFF;    min-height: 390px;    margin: 0px 50px;     padding: 20px 30px 30px 30px; position: relative;/*cursor: pointer;*/    cursor: context-menu; box-shadow: 0px 15px 35px 18px #0000000d;}
+#servicios .ingresar {    position: absolute;    bottom: 30px;}
+#servicios .ingresar b {    letter-spacing: -3px;    color: #262c61;}
+
+#servicios .serv_title {    padding-top: 20px;    line-height: 2rem;    font-size: 1.8rem;    font-weight: 600;}
+#servicios .circle_text {	text-align: left;     padding-bottom: 30px;}
+div#Servicios {    color: white;}
+section#geoservicios {    padding: 4.5rem 0rem;}
+section#recursos {    padding: 4.5rem 0rem;}
+
+
+
+
+
+#pie {background-color:#262c61; margin-top: 50px;}
+#pie .h-100 {min-height: 368px;}
+#pie img {margin-bottom: 28px;}
+#pie p {    color: #fff; font-size: 14px;     margin: 0px;}
+#pie p.resaltar {    font-size: 18px!Important;    font-weight: 600;}
+#pie li {    list-style-type: none;    font-size: 16px;    margin-bottom: 0px;    font-weight: 500;}
+#pie .columna {    padding: 40px 15px;}
+#pie .columna b {    /*border-bottom: 2px solid #000;*/    min-width: 5px;     text-decoration-line: line-through; font-size: x-large;    font-weight: bold; color: #fff;}
+#pie a {color: #FFF; text-decoration: none!Important;}
+#pie a b{color: #faf9fc; text-decoration: none!Important;}
+#pie a:hover {color: #dad7d7; text-decoration: none!Important;}
+#pie a:hover b{color: #dad7d7!Important; text-decoration: none!Important;}
+
+.pantalla {display: block;}
+.celular {display: none;}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 720px) {
+	.pantalla {display: none;}
+	.celular {display: block;}
+	#informacion .info {    background-size: contain;     display: block;    overflow: hidden; min-height: 490px;}
+	#informacion .recuadro {    float: right;    position: absolute;    top: 275px;    height: auto;    width: 100%;    line-height: 1;    z-index: 99;}
+	#informacion .info_bolanta {    font-size: 20px; }
+	#info_title {    font-size: 33px; margin-top: 10px;}
+	#info_mas {   margin-top: 10px;}
+	#info_texto {    line-height: 1.5;    width: 100%;    margin-top: 15px;}
+	#sabermas .fondogris {    padding: 20px;    margin: 0px 15px;}
+	#sabermas .titulo {      line-height: 1.2;    margin-bottom: 20px;    font-size: 21px;}	
+	#sabermas .texto {    margin: 0px 0px 55px 0px;}
+	#informacion .video {       position: absolute;    top: 70px;    width: 100%;    height: 190px!Important;}	
+    #servicios {background-image: url(../img/fondo_servicios_xs.jpg); margin: 50px 0px; padding: 30px 15px;}
+	#servicios .recuadro {    background-color: #FFF;    min-height: 280px;    margin: 20px; padding: 5px 30px 30px 30px;}
+	#servicios .serv_title {    padding-top: 5px;}
+
+
+	#institucional {    padding: 25px 0px;}
+	#institucional {    padding: 0px 0px;}
+	#banner1 {   padding: 0px 0px 10px 0px!Important;}
+	#banner2 {    padding-bottom: 50px;     padding-top: 0px!Important;}
+	#banner2 .img1 {    margin-bottom: 50px;}
+	section#pie {    padding-bottom: 40px; margin-top: 0px;}
+	#pie img {    margin: 15px 0px;}
+	#pie .columna {    padding: 20px 15px 0px 15px;}
+	#pie ul {    padding-left: 0px;}	
+	#footer {    padding: 30px 0px 20px 0px;}
+	#footer img {    max-width: 60%;}
+	.footer i.fab {    font-size: 40px;    margin: 25px 20px;}
+	
+	#buscador h6 {   font-size: 30px; }
+	#buscador .input-group {    width: 100%;    margin-left: 0%;    margin-right: 0%;}
+	#buscador .form-control {font-size: 14px; padding: 30px 15px;}
+	button#botbuscar {    padding: 0px 8px;    font-size: 25px;}
+	.fancybox-slide {    padding: 44px 15px 15px 15px;}
+	
+	
+}
